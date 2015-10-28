@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+      name="customer.diazo.mlsnica_com"
+      interface="customer.diazo.mlsnica_com.interfaces.ICustomerDiazoMlsnicaComLayer"
+      remove="True"
+      />
+</layers>
