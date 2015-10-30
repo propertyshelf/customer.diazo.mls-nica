@@ -1,3 +1,28 @@
+.portletQuickSearch {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d7a9c+0,6696aa+100 */
+	background: rgb(61,122,156); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(61,122,156,1) 0%, rgba(102,150,170,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(61,122,156,1)), color-stop(100%,rgba(102,150,170,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(61,122,156,1) 0%,rgba(102,150,170,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(61,122,156,1) 0%,rgba(102,150,170,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(61,122,156,1) 0%,rgba(102,150,170,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(61,122,156,1) 0%,rgba(102,150,170,1) 100%); /* W3C */
+}
+.portletQuickSearch dt.portletHeader{
+	background: transparent none repeat scroll 0 0;
+	font-weight: normal;
+	color: #fff;
+}
+#global-wrapper .portletQuickSearch label,
+#global-wrapper .portletQuickSearch .label{
+	color:#fff;
+}
+.portletQuickSearch label.horizontal.collapser.collapsed{
+	background: rgba(0, 0, 0, 0) url("../images/arrow-bottom-white.png") no-repeat scroll right center;
+}
+.portletQuickSearch label.horizontal.collapser.expanded {
+    background: rgba(0, 0, 0, 0) url("../images/arrow-bottom-white-90.png") no-repeat scroll right center;
+}
 body div#global-wrapper div#wrapper-inner div#header-tools{
 	background: #014c6f; /* Old browsers */
 	background: -moz-linear-gradient(top,  #014c6f 0%, #a7cbc1 100%); /* FF3.6+ */
@@ -15,6 +40,9 @@ body div#global-wrapper #wrapper-inner #navigation{
 	background: -o-linear-gradient(top,  #a7cbc1 0%,#014c6f 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  #a7cbc1 0%,#014c6f 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #a7cbc1 0%,#014c6f 100%); /* W3C */
+}
+#content .listing-summary .tileItem{
+	background-color: #fafafa;
 }
 body #global-wrapper #wrapper-inner #navigation #id_nav1,
 body #global-wrapper #wrapper-inner #navigation #id_nav1 ul,
@@ -204,10 +232,24 @@ body .listing-collection-tile .tile-header h1,
 body .portlet .portletHeader a,
 body #content .documentFirstHeading,
 body dl.portlet.portletNews .portletItem .tile h3,
-body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a{
+body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a,
+#content .listing-summary .tileItem a,
+.portletQuickSearch dt.portletHeader{
     font-family: "Cagliostro",sans-serif;
 }
-
+#content .listing-summary .tileItem a{
+    color: #014c69;
+}
+.improved .price p {
+    color: #0d4461;
+}
+.listingBar span.active {
+    background-color: #014c69;
+    border: 0.1em solid #014c69;
+}
+.listingBar span.active span {
+    background-color: transparent;
+}
 @media (max-width: 1600px) and (min-width: 1301px) { 
 
 }
@@ -222,12 +264,18 @@ body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu l
 		margin-right: 40px;
 		width: auto;
 	}
+    #maincontent{
+        overflow: auto; 
+    }
 }
 @media (max-width: 980px) and (min-width: 801px) {
 	body #wrapper-inner .site-social .site_social_link {
 		margin-right: 40px;
 		width: auto;
 	}
+	#maincontent{
+        overflow: auto; 
+    }
 }
 @media (max-width: 800px) and (min-width: 768px) {
 	body #wrapper-inner .site-social{
@@ -237,6 +285,9 @@ body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu l
 		margin-right: 40px;
 		width: auto;
 	}
+    #maincontent{
+        overflow: auto; 
+    }
 }
 @media (max-width: 767px) and (min-width: 481px) {
 	body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a:hover {
@@ -274,6 +325,9 @@ body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu l
 		margin-left: 200px;
 		background-color: #fff;
 	}
+    #maincontent{
+        overflow: auto; 
+    }
 }
 @media (max-width: 599px) and (min-width: 1px) {
 	body #wrapper-inner .site-social .site_social_link{
@@ -299,6 +353,9 @@ body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu l
 	}
 }
 @media (max-width: 480px) and (min-width: 401px) {
+    #maincontent{
+        overflow: auto; 
+    }
 	body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a:hover {
 		background-color: #0d486b !important;
 	}
@@ -344,6 +401,9 @@ body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu l
 	}
 }
 @media (max-width: 400px) and (min-width: 1px) {
+    #maincontent{
+        overflow: auto; 
+    }
 	body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a:hover {
 		background-color: #0d486b !important;
 	}
