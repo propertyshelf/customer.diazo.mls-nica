@@ -267,6 +267,10 @@ body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu l
     #maincontent{
         overflow: auto; 
     }
+	.portletQuickSearch #formfield-form-widgets-listing_type .option{
+		float: left;
+		width: 25%;
+	}
 }
 @media (max-width: 980px) and (min-width: 801px) {
 	body #wrapper-inner .site-social .site_social_link {
@@ -276,6 +280,10 @@ body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu l
 	#maincontent{
         overflow: auto; 
     }
+	.portletQuickSearch #formfield-form-widgets-listing_type .option{
+		float: left;
+		width: 25%;
+	}
 }
 @media (max-width: 800px) and (min-width: 768px) {
 	body #wrapper-inner .site-social{
@@ -288,8 +296,16 @@ body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu l
     #maincontent{
         overflow: auto; 
     }
+	.portletQuickSearch #formfield-form-widgets-listing_type .option{
+		float: left;
+		width: 25%;
+	}
 }
 @media (max-width: 767px) and (min-width: 481px) {
+	.portletQuickSearch #formfield-form-widgets-listing_type .option{
+		float: left;
+		width: 50%;
+	}
 	body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a:hover {
 		background-color: #0d486b !important;
 	}
