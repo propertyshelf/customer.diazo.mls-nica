@@ -79,9 +79,28 @@ body #wrapper-inner #header .navbar {
 body .logo-wrapper .logo {
     min-height: 100px;
 }
+#footer-wrapper #doormat-container .doormatColumn{
+	margin-right: 1%;
+}
+.listing-collection-tile .tileItem{
+	background-color: #fafafa;
+}
+dl.portlet dt{
+	background-color: transparent;
+}
+body #global-wrapper #content-wrapper .portletAgentInformation .portletHeader,
+body #global-wrapper #content-wrapper .portletAgentContact .portletHeader{
+	text-align: left;
+	color: #014c69;
+	font-weight: normal;
+}
 body #global-wrapper #portal-searchbox {
     right: 8px;
     top: 44px;
+}
+body h3, body h3 a {
+    color: #014c69;
+    font-size: 20px;
 }
 body #global-wrapper .navmenu {
     margin-left: 156px;
@@ -234,7 +253,9 @@ body #content .documentFirstHeading,
 body dl.portlet.portletNews .portletItem .tile h3,
 body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a,
 #content .listing-summary .tileItem a,
-.portletQuickSearch dt.portletHeader{
+.portletQuickSearch dt.portletHeader,
+body #global-wrapper #content-wrapper .portletAgentInformation .portletHeader,
+body #global-wrapper #content-wrapper .portletAgentContact .portletHeader{
     font-family: "Cagliostro",sans-serif;
 }
 #content .listing-summary .tileItem a{
