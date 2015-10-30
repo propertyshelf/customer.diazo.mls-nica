@@ -250,6 +250,16 @@ body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu l
 .listingBar span.active span {
     background-color: transparent;
 }
+body div.text_hidden {
+    height: auto;
+}
+body .pop-search {
+    overflow: auto;
+    width: 100%;
+}
+body .text_hidden img{
+	margin-left: 0;
+}
 @media (max-width: 1600px) and (min-width: 1301px) { 
 
 }
@@ -348,6 +358,12 @@ body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu l
 @media (max-width: 599px) and (min-width: 1px) {
 	body #wrapper-inner .site-social .site_social_link{
 		display: none;
+	}
+	body .pop-search div img{
+		margin-left: 0 !important;
+	}
+	body .pop-search div {
+		text-align: left;
 	}
 }
 @media (max-width: 510px) and (min-width: 1px) {
