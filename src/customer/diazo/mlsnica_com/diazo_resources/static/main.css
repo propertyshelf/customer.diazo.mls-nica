@@ -1,4 +1,5 @@
-.portletQuickSearch {
+.portletQuickSearch,
+.listing-search-tile{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d7a9c+0,6696aa+100 */
 	background: rgb(61,122,156); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(61,122,156,1) 0%, rgba(102,150,170,1) 100%); /* FF3.6+ */
@@ -8,19 +9,30 @@
 	background: -ms-linear-gradient(top,  rgba(61,122,156,1) 0%,rgba(102,150,170,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(61,122,156,1) 0%,rgba(102,150,170,1) 100%); /* W3C */
 }
-.portletQuickSearch dt.portletHeader{
+.listing-search-tile{
+    padding: 10px 5%;
+}
+.portletQuickSearch dt.portletHeader,
+.listing-search-tile .tile-header h2{
 	background: transparent none repeat scroll 0 0;
 	font-weight: normal;
 	color: #fff;
 }
+.listing-search-tile .tile-header h2{
+    margin-top: 0;
+}
 #global-wrapper .portletQuickSearch label,
-#global-wrapper .portletQuickSearch .label{
+#global-wrapper .portletQuickSearch .label,
+.listing-search-tile #form .horizontal,
+.listing-search-tile #form span.label{
 	color:#fff;
 }
-.portletQuickSearch label.horizontal.collapser.collapsed{
+.portletQuickSearch label.horizontal.collapser.collapsed,
+.listing-search-tile #form .horizontal.collapser.collapsed{
 	background: rgba(0, 0, 0, 0) url("../images/arrow-bottom-white.png") no-repeat scroll right center;
 }
-.portletQuickSearch label.horizontal.collapser.expanded {
+.portletQuickSearch label.horizontal.collapser.expanded,
+.listing-search-tile #form .horizontal.collapser.expanded {
     background: rgba(0, 0, 0, 0) url("../images/arrow-bottom-white-90.png") no-repeat scroll right center;
 }
 body div#global-wrapper div#wrapper-inner div#header-tools{
@@ -61,6 +73,9 @@ body #global-wrapper #wrapper-inner #navigation #id_nav1 ul li a:hover{
 }
 body #global-wrapper #wrapper-inner .site_contact_phone{
     background-image: url("../images/sc-phone-white.png");
+}
+.language-switcher #portal-languageselector li.language-es a{
+    background-image: url("../images/Nicaragua.png");
 }
 body #portal-logo img{
     z-index: 1;
@@ -147,7 +162,9 @@ body #content .documentDescription {
     color: #014c69;
 }
 body h1, body h1 a,
-body h2, body h2 a {
+body h2, body h2 a,
+body h3, body h3 a,
+body h4, body h4 a{
     color: #014c69;
 }
 body div p {
@@ -255,7 +272,11 @@ body #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu l
 #content .listing-summary .tileItem a,
 .portletQuickSearch dt.portletHeader,
 body #global-wrapper #content-wrapper .portletAgentInformation .portletHeader,
-body #global-wrapper #content-wrapper .portletAgentContact .portletHeader{
+body #global-wrapper #content-wrapper .portletAgentContact .portletHeader,
+body h1, body h1 a,
+body h2, body h2 a,
+body h3, body h3 a,
+body h4, body h4 a{
     font-family: "Cagliostro",sans-serif;
 }
 #content .listing-summary .tileItem a{

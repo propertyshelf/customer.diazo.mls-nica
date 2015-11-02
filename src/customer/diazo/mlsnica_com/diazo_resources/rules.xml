@@ -13,7 +13,7 @@
     <after css:theme-children="html head">
       <!-- Add custom stylesheet. -->
       <link rel="stylesheet" href="{$portal_url}/++theme++customer.diazo.mlsnica_com/static/main.css" type="text/css" />
-      
+      <script src="{$portal_url}/++theme++customer.diazo.mlsnica_com/static/main.js"></script>
       <link href='http://fonts.googleapis.com/css?family=Cagliostro' rel='stylesheet' type='text/css'/>
 
     </after>
